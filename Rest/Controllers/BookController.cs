@@ -14,10 +14,10 @@ namespace Rest.Controllers
     {
         private static List<Book> _books = new List<Book>()
         {
-            new Book("Lars Titel", "Lars", 42, "1234567890120"),
+            new Book("Mein Trampf", "Pablo Flemmingway", 42, "1234567890120"),
             new Book("Den Bedste Bog", "Lars", 459, "1234567890121"),
-            new Book("Den næste BEDSTE bog", "Lars", 999, "1234567890122"),
-            new Book("Triologien - Begyndelsen", "Lars", 420, "1234567890123")
+            new Book("Den næstBEDSTE bog", "Ikke Lars", 999, "1234567890122"),
+            new Book("Triologi-antologien: Den Bedste, Næstbedste bog, samt en blanding af mine bedste hits", "Lars", 420, "1234567890123")
         };
         // GET: api/Book
         [HttpGet]
